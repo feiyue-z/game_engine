@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <object isDragged="false" isPressed="false" mass="0.5" mouseControlEnabled="false" objectTag="block" priority="0" res="0.5">
+        <component>
+            <transform>
+                <pos x="497.9718431892012" y="331.0304649714905"/>
+                <size x="48.0" y="48.0"/>
+            </transform>
+            <collision isStatic="false" shape="class engine.shape.AAB">
+                <min x="497.9718431892012" y="331.0304649714905"/>
+                <max x="545.9718431892012" y="379.0304649714905"/>
+            </collision>
+            <physics mass="0.5" res="0.5" shapeIsStatic="false">
+                <vel x="1.6666666004392863" y="35.06273918000002"/>
+                <impulse x="0.0" y="0.0"/>
+                <force x="0.0" y="10.0"/>
+            </physics>
+            <sprite spriteIndex="1"/>
+            <health currHealthPoints="50" totalHealthPoints="100"/>
+        </component>
+    </object>
+    <object isDragged="false" isPressed="false" mass="1000.0" mouseControlEnabled="false" objectTag="platform" priority="0" res="0.5">
+        <component>
+            <transform>
+                <pos x="0.0" y="450.0"/>
+                <size x="1152.0" y="48.0"/>
+            </transform>
+            <collision isStatic="false" shape="class engine.shape.AAB">
+                <min x="0.0" y="450.0"/>
+                <max x="1152.0" y="498.0"/>
+            </collision>
+            <physics mass="1000.0" res="0.5" shapeIsStatic="true">
+                <vel x="0.0" y="0.0"/>
+                <impulse x="0.0" y="0.0"/>
+                <force x="0.0" y="0.0"/>
+            </physics>
+            <sprite spriteIndex="2"/>
+        </component>
+    </object>
+    <object isDragged="false" isOnPlatform="false" isPressed="false" mass="0.5" mouseControlEnabled="false" objectTag="player" priority="0" res="0.5">
+        <component>
+            <transform>
+                <pos x="144.0" y="331.0304649714905"/>
+                <size x="48.0" y="48.0"/>
+            </transform>
+            <collision isStatic="false" shape="class engine.shape.AAB">
+                <min x="144.0" y="331.0304649714905"/>
+                <max x="192.0" y="379.0304649714905"/>
+            </collision>
+            <physics mass="0.5" res="0.5" shapeIsStatic="false">
+                <vel x="0.0" y="35.06273918000002"/>
+                <impulse x="0.0" y="0.0"/>
+                <force x="0.0" y="10.0"/>
+            </physics>
+            <sprite spriteIndex="0"/>
+        </component>
+    </object>
+    <object cast="true" isDragged="false" isPressed="false" mass="0.5" mouseControlEnabled="false" objectTag="coin_0" priority="0" res="0.0">
+        <component>
+            <transform>
+                <pos x="465.8018435944774" y="340.4218855336945"/>
+                <size x="16.0" y="16.0"/>
+            </transform>
+            <collision isStatic="false" shape="class engine.shape.AAB">
+                <min x="465.8018435944774" y="340.4218855336945"/>
+                <max x="481.8018435944774" y="356.4218855336945"/>
+            </collision>
+            <physics mass="0.1" res="0.0" shapeIsStatic="false">
+                <vel x="1.6666669729682955" y="21.962119159999997"/>
+                <impulse x="0.0" y="0.0"/>
+                <force x="0.0" y="2.0000000298023224"/>
+            </physics>
+            <sprite spriteIndex="3"/>
+        </component>
+    </object>
+</root>
